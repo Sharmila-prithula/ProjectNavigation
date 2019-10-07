@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="Navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Accelerometer_id"
+            android:title="Accelerometer" />
+
+        <item android:id="@+id/Gyroscope_id"
+            android:title="Gyroscope"/>
+        <item
+            android:id="@+id/Gyrofetch_id"
+            android:title="GyroDatabase"/>
+        <item
+            android:id="@+id/Proximity_id"
+            android:title="Proximity" />
+        <item
+            android:id="@+id/Shaker_id"
+            android:title="Shaker" />
+        <item
+            android:id="@+id/Map_id"
+            android:title="Map" />
+
+    </group>
+
+</menu>
